@@ -1,0 +1,168 @@
+ %% PLEASE DO NOT MODIFY OR DELETE THIS FILE! %% 
+ %% This file contains information about the installation of an application. %% 
+ %% It will be used to automatically remove all application components from your computer if you choose to do so. %% 
+
+
+NOTE: Beginning of the bootstrapper section
+
+CONFIG: Title: "LCC Ewallet Back Office v1"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SystemFile: "C:\WINDOWS\system32\VB6STKIT.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\COMCAT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\MSVCRT40.DLL"
+(File currently on disk was already up to date)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM32\COMCAT.DLL"
+
+NOTE: End of the bootstrapper section
+
+NOTE: Now spawning the main Setup program 'Setup1.exe'....
+
+ACTION: CreateDir: "C:\Program Files\CardPersonalization"
+
+ACTION: CreateDir: "C:\Documents and Settings\Administrator\Start Menu\Programs\LCC Ewallet Back Office"
+
+ACTION: SharedFile: "C:\Program Files\CardPersonalization\Settings.ini"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\Program Files\CardPersonalization\Vivo.ini"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\Program Files\CardPersonalization\ConSet.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\RDOCURS.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSRDO20.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\COMDLG32.OCX"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\VB5DB.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\MSREPL35.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\MSRD2X35.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\expsrv.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\vbajet32.dll"
+(File currently on disk was already up to date)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\MSJINT35.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\MSJTER35.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SystemFile: "C:\WINDOWS\system32\MSJET35.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\comctl32.ocx"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCOMCTL.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\tabctl32.ocx"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "C:\Program Files\Common Files\designer\MSDERUN.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSSTDFMT.DLL"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSDBRPTR.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSADODC.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSCOMM32.OCX"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\mscomct2.ocx"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSBIND.DLL"
+(File was not found or was an older version -- new file copied)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSMASK32.OCX"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\MSFLXGRD.OCX"
+(File currently on disk was already up to date)
+
+ACTION: SharedFile: "C:\WINDOWS\system32\msado20.tlb"
+(File was not found or was an older version -- new file copied)
+
+*** ERROR: C:\WINDOWS\system32\WinSCard.dll
+*** ERROR: The destination file in in-use.  Please ensure that all other applications are closed.
+*** ERROR: (User Responded with 'Ignore')
+*** DURING THIS ACTION: SharedFile: "C:\WINDOWS\system32\WinSCard.dll"
+
+*** ERROR: C:\WINDOWS\system32\WinSCard.dll
+*** ERROR: The destination file in in-use.  Please ensure that all other applications are closed.
+*** ERROR: If you ignore a copy error, the file will not be copied.  The application may not function properly as a result.  Do you want to ignore the error?
+*** ERROR: (User Responded with 'Yes')
+*** DURING THIS ACTION: SharedFile: "C:\WINDOWS\system32\WinSCard.dll"
+
+ACTION: SharedFile: "C:\Program Files\CardPersonalization\Ewallet BackOffice 102215.exe"
+(File was not found or was an older version -- new file copied)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSRDO20.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\COMDLG32.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSRD2X35.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSJET35.DLL"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\comctl32.ocx"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSCOMCTL.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\tabctl32.ocx"
+
+ACTION: DllSelfRegister: "C:\Program Files\Common Files\designer\MSDERUN.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSSTDFMT.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSDBRPTR.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSADODC.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSCOMM32.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\mscomct2.ocx"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSBIND.DLL"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSMASK32.OCX"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\system32\MSFLXGRD.OCX"
+
+ACTION: ShellLink: "LCC Ewallet Back Office", "LCC Ewallet Back Office v1"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\Ewallet BackOffice 102215.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Ewallet BackOffice 102215.exe", ""
+
